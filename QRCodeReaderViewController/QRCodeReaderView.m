@@ -59,22 +59,22 @@
   CGRect offsetRect = CGRectOffset(innerRect, 0, 15);
 
 
-  _overlay.path = [UIBezierPath bezierPathWithRoundedRect:offsetRect cornerRadius:5].CGPath;
+//  _overlay.path = [UIBezierPath bezierPathWithRoundedRect:offsetRect cornerRadius:5].CGPath;
 }
 
 #pragma mark - Private Methods
 
 - (void)addOverlay
 {
-  _overlay = [[CAShapeLayer alloc] init];
-  _overlay.backgroundColor = [UIColor clearColor].CGColor;
-  _overlay.fillColor       = [UIColor clearColor].CGColor;
-  _overlay.strokeColor     = [UIColor whiteColor].CGColor;
-  _overlay.lineWidth       = 3;
-  _overlay.lineDashPattern = @[@7.0, @7.0];
-  _overlay.lineDashPhase   = 0;
-
-  [self.layer addSublayer:_overlay];
+//  _overlay = [[CAShapeLayer alloc] init];
+//  _overlay.backgroundColor = [UIColor clearColor].CGColor;
+//  _overlay.fillColor       = [UIColor clearColor].CGColor;
+//  _overlay.strokeColor     = [UIColor whiteColor].CGColor;
+//  _overlay.lineWidth       = 3;
+//  _overlay.lineDashPattern = @[@7.0, @7.0];
+//  _overlay.lineDashPhase   = 0;
+//
+//  [self.layer addSublayer:_overlay];
 }
 
 @end
